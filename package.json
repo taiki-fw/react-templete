@@ -1,0 +1,23 @@
+{
+  "name": "ReactApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open"
+  }
+}
