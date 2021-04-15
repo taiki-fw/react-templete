@@ -1,1 +1,3 @@
-react project templete
+## react project templete
+
+- routing ... `react-router-dom`
